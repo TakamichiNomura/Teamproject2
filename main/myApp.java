@@ -4,7 +4,7 @@ import base.Circle;
  * myApp 클래스
  * 
  * @author (2018243144 노무라 타카미치 2018190042 모리모토 케이)
- * @version (バージョン番号もしくは日付)
+ * @version (20190909)
  */
 public class myApp
 {

@@ -5,7 +5,7 @@ package myInterface;
  * Shapeインターフェイス
  * 
  * @author (2018243144 노무라 타카미치 2018190042 모리모토 케이) 
- * @version (20190902)
+ * @version (20190909)
  */
 public interface Shape{ 
     final double PI = 3.14; 
