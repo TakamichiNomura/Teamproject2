@@ -2,9 +2,9 @@ package base;
 import myInterface.Shape;
 
 /**
- * Cirlce클래스
+ * Circle 클래스
  *
- * @author (2018243144 노무라타카미치)
+ * @author (2018243144 노무라타카미치 2018190042 모리모토 케이)
  * @version (20190909)
  */
 public class Circle implements Shape
