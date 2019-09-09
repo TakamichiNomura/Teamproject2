@@ -23,7 +23,12 @@ public class Circle implements Shape
     public double getArea(){
         return radius * radius * PI;
     }
-    public boolean equals(){
-        return ;
+    public boolean equals(Object obj){
+        Circle c = (Circle)obj;
+        if(x ==c.x && y == c.y){
+            return true;
+        }else{
+            return false;
+        }
     }
 }
