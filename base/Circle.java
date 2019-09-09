@@ -7,7 +7,7 @@ import myInterface.Shape;
  * @author (2018243144 노무라타카미치)
  * @version (20190909)
  */
-public class Circle
+public class Circle implements Shape
 {
     public int x;
     public int y;
@@ -16,6 +16,12 @@ public class Circle
         this.x = x;
         this.y = y;
         this.radius = radius;
+    }
+    public void draw(){
+        
+    }
+    public double getArea(){
+        return radius * radius * PI;
     }
     public boolean equals(){
         
