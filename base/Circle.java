@@ -24,6 +24,6 @@ public class Circle implements Shape
         return radius * radius * PI;
     }
     public boolean equals(){
-        
+        return ;
     }
 }
