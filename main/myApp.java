@@ -1,9 +1,9 @@
 package main;
 import base.Circle;
 /**
- * クラス myApp の注釈をここに書きます.
+ * myApp 클래스
  * 
- * @author (あなたの名前)
+ * @author (2018243144 노무라 타카미치 2018190042 모리모토 케이)
  * @version (バージョン番号もしくは日付)
  */
 public class myApp
