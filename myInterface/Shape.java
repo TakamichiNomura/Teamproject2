@@ -2,19 +2,17 @@ package myInterface;
 
 
 /**
- * インターフェース Shape のための注釈をここに書きます.
+ * インターフェイス
  * 
- * @author (あなたの名前) 
- * @version (バージョン番号もしくは日付)
+ * @author (2018190042 모리모토 케이) 
+ * @version (20190902)
  */
-
-public interface Shape
-{
-    /**
-     * メソッドのヘッダ例 - あなた自身のコメントで置き換えてください
-     * 
-     * @param  y    メソッドのためのサンプル引数
-     * @return        sampleMethod の戻り値
-     */
-    int sampleMethod(int y);
+interface Shape{ 
+    final double PI = 3.14; 
+    void draw(); 
+    double getArea(); 
+    default public void redraw(){ 
+        System.out.print("--- 다시 그립니다. "); 
+        draw(); 
+    }
 }
