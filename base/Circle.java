@@ -23,6 +23,9 @@ public class Circle implements Shape
     public double getArea(){
         return radius * radius * PI;
     }
+    public String toString(){
+        return "Circle("+ this.x +","+ this.y +")"+ "반지름"+ this.radius;
+    }
     public boolean equals(Object obj){
         Circle c = (Circle)obj;
         if(x ==c.x && y == c.y){
